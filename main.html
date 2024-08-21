@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Chavez - Portafolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Adrián Chávez Morales</h1>
+    </header>
+    <nav>
+        <a href="#about">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Work experience</a>
+        <a href="#skills">Skills</a>
+    </nav>
+    <main>
+        <section class="container" id="about">
+            <h2>About me</h2>
+            <div class="about-me">
+
+                <div class="aboutmetext-container">
+                    <p>Hi, I'm Adrián. I currently study Computer Science at Tecnológico de Monterrey. I have a passion for constant learning and always looking for new opportunities to improve my skills. I am interested in sports, culture and technology. </p>
+                    <p>You can contact me thorugh this means:</p>
+                    <ul>
+                        <li><b>Email</b>: <a href="mailto:adrian.chamor34@gmail.com">adrian.chamor34@gmail.com</a></li>
+                        <li><b>Phone number</b>: 6141022365</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://github.com/adrianchavez23" target="_blank">
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" class="social-icon" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/adrian-chavez-a494051a4/" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon" />
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <img src="yo.png" alt="Adrian Chavez" class="profile-pic"/>
+                
+            </div>
+        </section>
+        <section class="container" id="experience">
+            <h2>Work Experience</h2>
+            <div class="experience">
+                <div class="experience-card">
+                    <img src="eatin.jpg" alt="Eatin" class="company-pic"/>
+                    <h3>Software Developer Intern</h3>
+                    <h4 class="date">December 2023 - January 2024</h4>
+                    <p>Implemented a robust real-time communication system using Cloudflare Workers and leveraged Durable Objects for managing multiple WebSocket connections. This project facilitated seamless communication for both real-time and offline scenarios.</p>
+                </div>
+                <div class="experience-card">
+                    <img src="Schneider.png" alt="Schneider" class="company-pic"/>
+                    <h3>Software Developer Intern</h3>
+                    <h4 class="date">January 2024 - Active</h4>
+                    <p>Developed a chat functionality for a guarantee portal using knockout.js and C# applying the ASP.NET MVC framework, allowing clients to communicate via messages.</p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <!-- First 3 project cards (visible by default) -->
+                <div class="project-card">
+                    <img src="NEORISpage.png" alt="Neoris Chatbot" class="project-pic"/>
+                    <h3>Chatbot platform for NEORIS</h3>
+                    <div class="projects-tools">
+                        <div class="tool">React.js</div>
+                        <div class="tool">Flask</div>
+                        <div class="tool">MySql</div>
+                        <div class="tool">OpenAI API</div>
+                    </div>
+                    <p>Developed a full-stack web application with an integrated chatbot powered by Chat-GPT to manage and answer questions about products and services of NEORIS.</p>
+                    <a href="https://github.com/AdrianCantuA/Neoris_front" target="_blank">Check it out on github</a>
+                </div>
+                
+                <div class="project-card">
+                    <img src="cedain-image.jpg" alt="Mobile app" class="project-pic"/>
+                    <h3>Inventory Management Mobile App for CEDAIN</h3>
+                    <div class="projects-tools">
+                        <div class="tool">React Native</div>
+                        <div class="tool">Express.js</div>
+                        <div class="tool">MySql</div>
+                        <div class="tool">Google Cloud</div>
+                    </div>
+                    <p>Developed a full stack mobile application for inventory management collaborating with a team of 12 people using SCRUM.</p>
+                    <a href="https://github.com/sebasgarciag/Frontend-CEDAIN-App" target="_blank">Check it out on Github</a>
+                </div>
+        
+                <div class="project-card">
+                    <img src="TEEpage.png" alt="TEE app" class="project-pic"/>
+                    <h3>Online Trial Platform for State Electoral Court</h3>
+                    <div class="projects-tools">
+                        <div class="tool">React</div>
+                        <div class="tool">Express.js</div>
+                        <div class="tool">SQLExpress</div>
+                    </div>
+                    <p>Transferred a legal process to an online platform with the main goal of facilitating access to government services for people living outside the capital.</p>
+                    <a href="https://github.com/JRickyAV/juicios_react" target="_blank">Check it out on Github</a>
+                </div>
+                
+                <!-- Hidden Projects -->
+                <div class="project-card hidden">
+                    <img src="granja-hogar-logo.png" alt="Greenhouse Automation" class="project-pic"/>
+                    <h3>Greenhouse Automation for Chihuahua “Granja Hogar”</h3>
+                    <div class="projects-tools">
+                        <div class="tool">Node RED</div>
+                        <div class="tool">MQTT</div>
+                        <div class="tool">Arduino IDE</div>
+                    </div>
+                    <p>Developed programs on ESP32 microcontroller with Arduino IDE to regulate temperature and control greenhouse irrigation.</p>
+                </div>
+            </div>
+        
+            <!-- Show More Button -->
+            <button id="show-more-btn">Show More</button>
+        </section>
+        
+        <section class="container" id="skills">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li><b>Languages:</b> Python, C++, C#, SQL, JavaScript, HTML/CSS</li>
+                <li><b>Frameworks:</b> React, React Native, Knockout.js, Node.js, Flask, ASP.NET MVC</li>
+                <li><b>Developer tools:</b> Visual Studio, Visual Studio Code, Git, SQL Server Management Studio, Postman, Jira</li>
+                <li><b>Agile methodologies:</b> SCRUM</li>
+            </ul>
+        </section>
+        
+    </main>
+</body>
+<script>
+    const showMoreBtn = document.getElementById('show-more-btn');
+    const hiddenProjects = document.querySelectorAll('.hidden');
+
+    showMoreBtn.addEventListener('click', () => {
+        hiddenProjects.forEach(project => {
+            project.style.display = project.style.display === 'block' ? 'none' : 'block';
+        });
+
+        // Change the button text
+        showMoreBtn.textContent = showMoreBtn.textContent === 'Show More' ? 'Show Less' : 'Show More';
+    });
+</script>
+</html>
